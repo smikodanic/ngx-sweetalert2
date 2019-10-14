@@ -76,7 +76,7 @@ export class SwalComponent implements OnInit, OnChanges, OnDestroy {
     @Input() public focusConfirm: SweetAlertOptions['focusConfirm'];
     @Input() public focusCancel: SweetAlertOptions['focusCancel'];
     @Input() public showCloseButton: SweetAlertOptions['showCloseButton'];
-    @Input() public closeButtonHtml: SweetAlertOptions['closeButtonHtml'];
+    // @Input() public closeButtonHtml: SweetAlertOptions['closeButtonHtml'];
     @Input() public closeButtonAriaLabel: SweetAlertOptions['closeButtonAriaLabel'];
     @Input() public showLoaderOnConfirm: SweetAlertOptions['showLoaderOnConfirm'];
     @Input() public preConfirm: SweetAlertOptions['preConfirm'];
@@ -98,7 +98,7 @@ export class SwalComponent implements OnInit, OnChanges, OnDestroy {
     @Input() public progressSteps: SweetAlertOptions['progressSteps'];
     @Input() public currentProgressStep: SweetAlertOptions['currentProgressStep'];
     @Input() public progressStepsDistance: SweetAlertOptions['progressStepsDistance'];
-    @Input() public scrollbarPadding: SweetAlertOptions['scrollbarPadding'];
+    // @Input() public scrollbarPadding: SweetAlertOptions['scrollbarPadding'];
 
     /**
      * An object of SweetAlert2 native options, useful if:
